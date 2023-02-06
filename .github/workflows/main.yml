@@ -1,0 +1,457 @@
+echo "# jadoo-website" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Noorie1213/jadoo-website.git
+git push -u origin main
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="UTF-8">
+
+    <title>Artist Website</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <h1>Welcome to the Artist's Studio</h1>
+
+    </header>
+
+    <nav>
+
+      <ul>
+
+        <li><a href="#artpieces">Artpieces</a></li>
+
+        <li><a href="#music">Music</a></li>
+
+        <li><a href="#about">About the Artist</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+
+    </nav>
+
+    <main>
+
+      <section id="artpieces">
+
+        <h2>Artpieces</h2>
+
+        <p>Here are some of the artist's artpieces:</p>
+
+        <ul id="artpiece-list">
+
+        </ul>
+
+      </section>
+
+      <section id="music">
+
+        <h2>Music</h2>
+
+        <p>Here is the artist's music portfolio:</p>
+
+        <ul id="music-list">
+
+        </ul>
+
+      </section>
+
+      <section id="about">
+
+        <h2>About the Artist</h2>
+
+        <p>Learn more about the artist and their story:</p>
+
+        <p>Insert the artist's bio and background here.</p>
+
+      </section>
+
+      <section id="contact">
+
+        <h2>Contact</h2>
+
+        <p>Get in touch with the artist:</p>
+
+        <form>
+
+          <label for="name">Name:</label>
+
+          <input type="text" id="name" name="name" required>
+
+          <br><br>
+
+          <label for="email">Email:</label>
+
+          <input type="email" id="email" name="email" required>
+
+          <br><br>
+
+          <label for="message">Message:</label>
+
+          <textarea id="message" name="message" required></textarea>
+
+          <br><br>
+
+          <input type="submit" value="Submit">
+
+        </form>
+
+      </section>
+
+    </main>
+
+    <footer>
+
+      <p>&copy; Artist's Studio</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+  </body>
+
+</html>
+
+body {
+
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+
+header {
+
+  background-color: lightgray;
+
+  padding: 20px;
+
+  text-align: center;
+
+}
+
+
+nav {
+
+  background-color: gray;
+
+  display: flex;
+
+  justify-content: space-around;
+
+  padding: 10px 0;
+
+}
+
+
+nav a {
+
+  color: white;
+
+  text-decoration: none;
+
+}
+
+
+main {
+
+  display: flex;
+
+
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="UTF-8">
+
+    <title>Artist Website</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <h1>Welcome to the Artist's Studio</h1>
+
+    </header>
+
+    <nav>
+
+      <ul>
+
+        <li><a href="#artpieces">Artpieces</a></li>
+
+        <li><a href="#music">Music</a></li>
+
+        <li><a href="#about">About the Artist</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+        <li><a href="#checkout">Checkout</a></li>
+
+      </ul>
+
+    </nav>
+
+    <main>
+
+      <section id="artpieces">
+
+        <h2>Artpieces</h2>
+
+        <p>Here are some of the artist's artpieces:</p>
+
+        <ul id="artpiece-list">
+
+        </ul>
+
+      </section>
+
+      <section id="music">
+
+        <h2>Music</h2>
+
+        <p>Here is the artist's music portfolio:</p>
+
+        <ul id="music-list">
+
+        </ul>
+
+      </section>
+
+      <section id="about">
+
+        <h2>About the Artist</h2>
+
+        <p>Learn more about the artist and their story:</p>
+
+        <p>Insert the artist's bio and background here.</p>
+
+      </section>
+
+      <section id="contact">
+
+        <h2>Contact</h2>
+
+        <p>Get in touch with the artist:</p>
+
+        <form>
+
+          <label for="name">Name:</label>
+
+          <input type="text" id="name" name="name" required>
+
+          <br><br>
+
+          <label for="email">Email:</label>
+
+          <input type="email" id="email" name="email" required>
+
+          <br><br>
+
+          <label for="message">Message:</label>
+
+<textarea id="message" name="message" required></textarea>
+
+          <br><br>
+
+          <input type="submit" value="Submit">
+
+        </form>
+
+      </section>
+
+      <section id="checkout">
+
+        <h2>Checkout</h2>
+
+        <p>Enter your information to complete your purchase:</p>
+
+        <form>
+
+          <label for="name">Name:</label>
+
+          <input type="text" id="name" name="name" required>
+
+          <br><br>
+
+          <label for="email">Email:</label>
+
+          <input type="email" id="email" name="email" required>
+
+          <br><br>
+
+          <label for="address">Address:</label>
+
+          <input type="text" id="address" name="address" required>
+
+          <br><br>
+
+          <label for="item">Item:</label>
+
+          <select id="item" name="item
+
+
+
+
+ <!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Administration Page</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1>Administration Page</h1>
+
+  </header>
+
+  
+
+  <nav>
+
+    <ul>
+
+      <li><a href="index.html">Home</a></li>
+
+      <li><a href="about.html">About</a></li>
+
+      <li><a href="contact.html">Contact</a></li>
+
+      <li><a href="admin.html" class="active">Admin</a></li>
+
+    </ul>
+
+  </nav>
+
+
+  <main>
+
+    <h2>Add New Artpiece</h2>
+
+    <form id="add-artpiece-form">
+
+      <div>
+
+<div>
+
+        <label for="artpiece-name">Artpiece Name:</label>
+
+        <input type="text" id="artpiece-name" name="artpiece-name">
+
+      </div>
+
+      <div>
+
+        <label for="artpiece-image">Artpiece Image:</label>
+
+        <input type="text" id="artpiece-image" name="artpiece-image">
+
+      </div>
+
+      <div>
+
+        <label for="artpiece-price">Artpiece Price:</label>
+
+        <input type="number" id="artpiece-price" name="artpiece-price">
+
+      </div>
+
+      <button type="submit">Add Artpiece</button>
+
+    </form>
+
+
+    <h2>Update Artpiece</h2>
+
+    <form id="update-artpiece-form">
+
+      <div>
+
+        <label for="artpiece-id">Artpiece ID:</label>
+
+        <input type="number" id="artpiece-id" name="artpiece-id">
+
+      </div>
+
+      <div>
+
+        <label for="artpiece-name-update">Artpiece Name:</label>
+
+        <input type="text" id="artpiece-name-update" name="artpiece-name-update">
+
+      </div>
+
+      <div>
+
+        <label for="artpiece-image-update">Artpiece Image:</label>
+
+        <input type="text" id="artpiece-image-update" name="artpiece-image-update">
+
+      </div>
+
+      <div>
+
+        <label for="artpiece-price-update">Artpiece Price:</label>
+
+        <input type="number" id="artpiece-price-update" name="artpiece-price-update">
+
+      </div>
+
+      <button type="submit">Update Artpiece</button>
+
+    </form>
+
+
+    <h2>Add New Music</h2>
+
+    <form id="add-music-form">
+
+      <div>
+
+        <label for="music-name">Music Name:</label>
+
+        <input type="text" id="music-name" name="music-name">
+
+      </div>
+
+      <div>
+
+        <label for="music-image">
+
+
+
+
